@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "migrated": 2,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FabBookmark",
+      "SiApachehive",
+      "FabChess",
+      "SiAirbnb",
+      "FabDatabase"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true
+  },
+  "000规划/算法.md": {
+    "iconName": "SiAirbnb",
+    "inheritanceIcon": "SiThealgorithms"
+  },
+  "000规划/Flink.md": "SiApacheflink",
+  "000规划/象棋.md": {
+    "iconName": "FabChess",
+    "inheritanceIcon": "TiChess"
+  },
+  "000规划/数仓.md": {
+    "iconName": "FabDatabase",
+    "inheritanceIcon": "FabDatabase"
+  },
+  "000规划/Hive.md": "SiApachehive",
+  "012模板/项目计划模板.md": "FabBookmark"
+}

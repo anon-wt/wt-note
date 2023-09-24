@@ -1,0 +1,155 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "012模板/项目计划模板.md",
+        "012模板/模板2.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "000规划",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "待办": {
+                "weight": 0
+              },
+              "进行中": {
+                "weight": 1
+              },
+              "已完成": {
+                "weight": 2
+              }
+            },
+            "includeFields": []
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "dc53f057-86b7-41b2-a89e-9ce401d11e54",
+          "name": "Kanban",
+          "type": "board"
+        },
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "type",
+              "tags",
+              "status",
+              "create",
+              "update",
+              "deadline"
+            ],
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0398dd3b-1de5-47c4-b3c9-92993caa0066",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1bca6707-4b88-48d1-80ea-a8b805cc8fe0",
+          "name": "日历",
+          "type": "calendar"
+        }
+      ],
+      "id": "f4b3fb3a-3de0-4a68-a352-278d4ba48f98",
+      "name": "任务管理器"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "fa91d9db-88b5-4942-b1b7-9df7daa71523",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "19c4551f-3e29-42f0-be72-92908c7abe70",
+      "name": "未命名项目ddfv"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "f4b3fb3a-3de0-4a68-a352-278d4ba48f98",
+        "view": "dc53f057-86b7-41b2-a89e-9ce401d11e54"
+      },
+      {
+        "project": "f4b3fb3a-3de0-4a68-a352-278d4ba48f98"
+      },
+      {
+        "project": "f4b3fb3a-3de0-4a68-a352-278d4ba48f98",
+        "view": "0398dd3b-1de5-47c4-b3c9-92993caa0066"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}
